@@ -13,25 +13,25 @@
     <main>
         <section>
             <h2>My Tasks</h2>
-            <form>
-                <input type="text" placeholder="Add a new task...">
-                <button type="submit">Add Task</button>
+            <form id="task-form">
+                <input type="text" id="task-input" placeholder="Add a new task...">
+                <button type="submit" id="add-task-btn">Add Task</button>
             </form>
             <ul id="task-list">
-                <li>
-                    <input type="checkbox">
+                <li class="task-item">
+                    <input type="checkbox" class="task-checkbox">
                     Learn task1
-                    <button type="button">delete</button>
+                    <button type="button" class="delete-btn">delete</button>
                 </li>
-                <li>
-                    <input type="checkbox">
+                <li class="task-item">
+                    <input type="checkbox" class="task-checkbox">
                     Learn task2
-                    <button type="button">delete</button>
+                    <button type="button" class="delete-btn">delete</button>
                 </li>
-                <li>
-                    <input type="checkbox">
+                 <li class="task-item">
+                    <input type="checkbox" class="task-checkbox">
                     Learn task3
-                    <button type="button">delete</button>
+                    <button type="button" class="delete-btn">delete</button>
                 </li>
             </ul>
         </section>
