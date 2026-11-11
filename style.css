@@ -1,3 +1,60 @@
 body {
-    background-color: lightblue;
+    background-color: #f5f7fb;
+}
+.container {
+    max-width: 820px;
+    margin: auto;
+}
+.task-card{
+    background-color: white;
+    padding: 30px;
+    border-radius: 16px;
+}
+h1,h2{
+    color:#333333;
+}
+#task-input{
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    flex: 1;
+}
+#add-task-btn{
+    background-color: #2563eb;
+    color: white;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+#task-form{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+.task-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid #eeeeee;
+}
+.delete-btn{
+    background-color: #ef4444;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#task-list {
+    list-style: none;
+    padding: 0;
+}
+@media (max-width: 600px ){
+    .task-card{
+        padding: 18px;
+    }
+    #task-form{
+        flex-direction: column;
+    }
 }
