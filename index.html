@@ -6,8 +6,37 @@
     <title>TinyTasks</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1>TinyTasks</h1>
+<body> 
+    <header>  
+        <h1>TinyTasks</h1>
+    </header>
+    <main>
+        <section>
+            <h2>My Tasks</h2>
+            <form>
+                <input type="text" placeholder="Add a new task...">
+                <button type="submit">Add Task</button>
+            </form>
+            <ul id="task-list">
+                <li>
+                    <input type="checkbox">
+                    Learn task1
+                    <button type="button">delete</button>
+                </li>
+                <li>
+                    <input type="checkbox">
+                    Learn task2
+                    <button type="button">delete</button>
+                </li>
+                <li>
+                    <input type="checkbox">
+                    Learn task3
+                    <button type="button">delete</button>
+                </li>
+            </ul>
+        </section>
+    </main>
+
     <script src="script.js"></script>
 </body>
 </html>
