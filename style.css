@@ -62,3 +62,8 @@ h1,h2{
     text-decoration: line-through;
     opacity: 0.5;
 }
+.task-item span{
+    overflow-wrap: anywhere;
+    flex: 1;
+    margin: 0 12px;
+}

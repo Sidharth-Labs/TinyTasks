@@ -27,7 +27,7 @@ taskForm.addEventListener("submit",function(event){
     newTask.appendChild(taskLabel);
     newTask.appendChild(deleteButton);
     checkbox.addEventListener("change", function(){
-        newTask.classList.toggle("completed");
+        taskLabel.classList.toggle("completed");
     });
 
     newTask.classList.add("task-item");
