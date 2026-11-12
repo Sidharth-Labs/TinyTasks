@@ -32,4 +32,4 @@ This project is a learning exercise to understand planning, designing, developin
 
 
 **Live Website**
-Visit TinyTasks: https://tinytasks-kappa.vercel.app
+Visit TinyTasks: https://tinytasks-s.vercel.app
