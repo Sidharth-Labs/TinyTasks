@@ -22,7 +22,7 @@
 
 **Project Status**
 
-Currently under development.
+Devoloped.
 
 
 
@@ -30,3 +30,6 @@ Currently under development.
 
 This project is a learning exercise to understand planning, designing, developing, testing, version control, and deploying a website.
 
+
+**Live Website**
+Visit TinyTasks: https://tinytasks-kappa.vercel.app
